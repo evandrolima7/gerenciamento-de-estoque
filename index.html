@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estoque</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="logo.png">
+    <nav>
+      <strong>Crie seu estoque personalizado!</strong>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Adicionar produto</h1>
+    <p id="infos">Produto:<br> <input type="text" id="txtproduto"><br>
+      Valor unidade:<br> <input type="number"  id="textounidade">
+    </p>
+    <input type="button" value="Adicionar no estoque" id="botao">
+    <h1>Estoque</h1>
+    <table border="2" id="minhaTabela">
+      <thead>
+        <tr>
+          <th>Nome produto</th>
+          <th>QTDA</th>
+          <th>Preço und</th>
+          <th>Preço total</th>
+          <th>Apagar</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    Criado por <b>© Evandro de Jesus Lima</b>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

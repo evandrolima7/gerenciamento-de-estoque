@@ -1,0 +1,160 @@
+header {
+  background-color: #E64E74;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+nav { 
+  background-color: #49BFB3; 
+  color: white; 
+  text-align: center;
+  text-indent: 20px; 
+  padding: 5px; 
+  margin-bottom: 50px; 
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  
+}
+
+input {
+  background-color: white;
+}
+
+textarea {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: italic;
+}
+
+div {
+  background-color: #F2DCD8;
+}
+
+footer {
+  background-color: #E64E74;
+  margin-top: 75px;
+  margin-bottom: 0px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+#botao {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  display: block;
+}
+
+table {
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+button {
+  background-color: #E64E74;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+main {
+  background-color: #49BFB3;
+  padding: 10px;
+  border-radius: 10px;
+  font: normal bold 15pt Arial;
+  text-align: left;
+  color: white;
+  width: 80%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+main h1 {
+  text-align: center;
+  text-decoration: italic;
+}
+
+main input {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+
+header {
+  background-color: #E64E74;
+  width: 100%;
+}
+
+body {
+  margin: auto;
+
+}
+
+input {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+  text-decoration: italic;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 0px;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+button {
+  background-color: #E64E74;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.plusButton {
+  width: 5px;
+  text-align: center;
+  margin:auto;
+}
+.minusButton {
+  width: 5px;
+  text-align: center;
+  margin:0px;
+}
+#infos {
+  margin: auto;
+}
+txtproduto {
+  margin: auto;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
