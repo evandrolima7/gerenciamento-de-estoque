@@ -193,3 +193,76 @@ th{
   padding: 10px 20px;
 
 }
+@media(max-width: 700px){
+  #minhaTabela{
+    background-color: lightslategrey;
+    padding: 5px;
+    border-radius: 5px;
+    border: 4px solid  rgb(104, 0, 0);
+    margin-bottom: 30px;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  th{
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+
+}
+
+@media(max-width: 475px){
+  #minhaTabela{
+    padding: 0px;
+    width: 90%;
+    margin:  auto;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  th{
+    padding: 1px;
+    font-size: 1rem;
+  }
+  body{
+    background-color:black ;
+  }
+  #botao {
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    background-color:  rgb(104, 0, 0);
+    color: whitesmoke;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    display: block;
+    margin:10px auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  tbody{
+    font-size: 1rem;
+  }
+  button {
+    background-color:  rgb(104, 0, 0);
+    color: white;
+    border: none;
+    padding: 1px 3px;
+    cursor: pointer;
+    margin: auto;
+  }
+  .plusButton {
+    width: 15px;
+    text-align: center;
+    margin:auto;
+  }
+  .minusButton {
+    width: 15px;
+    text-align: center;
+    margin: 0;
+  }
+  footer{
+    border-top: 4px solid  rgb(104, 0, 0);
+  }
+}
